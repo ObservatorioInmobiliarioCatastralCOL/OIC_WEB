@@ -1,0 +1,53 @@
+Credenciales:
+Usuario =   obs_inmobiliario@igac.gov.co
+Clave =     2025OIC#github
+
+Para clonar repositorio:
+git status
+git config --global user.name "ObservatorioInmobiliarioCatastralCOL"
+git config --global user.email "obs_inmobiliario@igac.gov.co"
+git clone https://github.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024.git
+
+Para subir archivos:
+cd OIC_WEB
+git status
+git add .
+git commit -m "subir archivos"
+git push -u origin main
+
+Modificar Archivos para descarga:
+1. Tomar ruta origina:
+    https://github.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/blob/main/Transacciones_Descargas_2024/Diccionario_Datos_Transacciones_V2.xlsx
+2. Cambiar inicio por:
+    https://raw.githubusercontent.com
+3. Eliminar:
+    'BLOB' previo a /main/...
+4 Restultado:
+    https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Diccionario_Datos_Transacciones_V2.xlsx
+
+Archivos del tablero de información disponible:
+1. Base de consulta:
+    https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Informacion_Disponible/20241113_Base_Consulta.xlsb
+
+
+Archivos del tablero de transacciones 2024:
+1. Guia de usuario:
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Manual_Usuario_Transacciones_V2.pdf
+
+2. Diccionario de datos:
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Diccionario_Datos_Transacciones_V2.xlsx
+
+3. Metadatos:
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Metadato_Transacciones_V2.xlsx
+
+4. Tabla de datos:
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Tabla_de_Datos_OIC_Transacciones_2015_2023.xlsb
+
+5. Reporte nacional:
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Reporte_OIC_Transacciones_Nacional.xlsx
+
+6. Reporte departamental
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Reporte_OIC_Transacciones_Deparmtamental.xlsx
+
+7. Reporte municipal:
+https://raw.githubusercontent.com/ObservatorioInmobiliarioCatastralCOL/OIC_2024/main/Transacciones_Descargas_2024/Reporte_OIC_Transacciones_Municipal.xlsx
